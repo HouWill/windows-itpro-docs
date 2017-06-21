@@ -5,7 +5,9 @@ ms.prod: w10
 ms.mktglfcycl: explore
 ms.sitesec: library
 ms.pagetype: surfacehub
-author: jdeckerMS
+author: jdeckerms
+ms.author: jdecker
+ms.date: 06/19/2017
 localizationpriority: medium
 ---
 

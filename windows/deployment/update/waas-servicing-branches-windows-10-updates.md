@@ -2,7 +2,7 @@
 title: Assign devices to servicing branches for Windows 10 updates (Windows 10)
 description: tbd
 ms.prod: w10
-ms.mktglfcycl: manage
+ms.mktglfcycl: deploy
 ms.sitesec: library
 author: DaniHalfin
 localizationpriority: high
@@ -60,7 +60,7 @@ Current Branch is the default servicing branch for all Windows 10 devices except
 
 - In Windows 10, version 1511:
 
-    ../Vendor/MSFT/Policy/Config/Update/**RequireDeferredUpgrade**
+    ../Vendor/MSFT/Policy/Config/Update/**RequireDeferUpgrade**
 
 - In Windows 10, version 1607:
 
@@ -70,7 +70,7 @@ Current Branch is the default servicing branch for all Windows 10 devices except
 
 - In Windows 10 Mobile Enterprise, version 1511:
 
-    ../Vendor/MSFT/Policy/Config/Update/RequireDeferredUpgrade
+    ../Vendor/MSFT/Policy/Config/Update/RequireDeferUpgrade
 
 - In Windows 10 Mobile Enterprise, version 1607:
 

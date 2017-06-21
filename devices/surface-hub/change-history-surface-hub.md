@@ -6,7 +6,9 @@ ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: surfacehub
-author: TrudyHa
+author: jdeckerms
+ms.author: jdecker
+ms.date: 06/19/2017
 localizationpriority: medium
 ---
 
@@ -14,11 +16,28 @@ localizationpriority: medium
 
 This topic lists new and updated topics in the [Surface Hub Admin Guide]( surface-hub-administrators-guide.md).
 
+## June 2017
+
+| New or changed topic | Description |
+| --- | --- |
+| [Set up and use Whiteboard to Whiteboard collaboration](whiteboard-collaboration.md) | New |
+| [Manage settings with an MDM provider (Surface Hub)](manage-settings-with-mdm-for-surface-hub.md#whiteboard-collaboration-settings) | Added settings for managing Whiteboard collaboration |
+
+## RELEASE: Windows 10, version 1703
+
+The topics in this library have been updated for Windows 10, version 1703 (also known as the Creators Update). The following new topics have been added:
+
+- [Miracast on existing wireless network or LAN](miracast-over-infrastructure.md)
+
+>[Looking for the Surface Hub admin guide for Windows 10, version 1607?](http://download.microsoft.com/download/7/2/5/7252051B-7E97-4781-B5DF-58D4B1A4BB88/surface-hub-admin-guide-1607.pdf)
+
+
 ## May 2017
 
 | New or changed topic | Description |
 | --- | --- |
 | [Online or hybrid deployment using Skype Hybrid Voice environment](skype-hybrid-voice.md) | New |
+
 
 ## February 2017
 

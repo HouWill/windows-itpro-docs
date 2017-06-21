@@ -35,12 +35,16 @@ In Windows 10, version 1703 (also known as the Creators Update), the Windows Def
 
 Settings that were previously part of the Windows Defender client and main Windows Settings have been combined and moved to the new app, which is installed by default as part of Windows 10, version 1703.
 
-The app also includes the settings and status of:
+> [!IMPORTANT] 
+> Disabling the Windows Security Center service will not disable Windows Defender AV or [Windows Firewall](https://docs.microsoft.com/en-us/windows/access-protection/windows-firewall/windows-firewall-with-advanced-security). These will be disabled automatically when a 3rd party antivirus or firewall product is installed and kept up to date.
 
-- The PC (as "device health")
-- Windows Firewall
-- Windows Defender SmartScreen Filter
-- Parental and Family Controls
+> [!WARNING] 
+> If you do disable the Windows Security Center service, or configure its associated Group Policy settings to prevent it from starting or running, the Windows Defender Security Center may display stale or inaccurate information about any antivirus or firewall products you have installed on the device. 
+>It may also prevent Windows Defender AV from enabling itself if you have an old or outdated 3rd party antivirus, or if you uninstall any 3rd party antivirus products you may have previously installed. 
+>This will significantly lower the protection of your device and could lead to malware infection.
+
+
+See the [Windows Defender Security Center topic](/windows/threat-protection/windows-defender-security-center) for more information on other Windows security features that can be monitored in the app.
 
 >[!NOTE]
 >The Windows Defender Security Center app is a client interface on Windows 10, version 1703. It is not the Windows Defender Security Center web portal that is used to review and manage [Windows Defender Advanced Threat Protection](../windows-defender-atp/windows-defender-advanced-threat-protection.md).
@@ -89,13 +93,15 @@ This section describes how to perform some of the most common tasks when reviewi
 
 4. Click **Advanced scan** to specify different types of scans, such as a full scan.
 
-
-**Download protection updates in the Windows Defender Security Center app**
+<a id="definition-version"></a>
+**Review the definition update version and download the latest updates in the Windows Defender Security Center app**
 1. Open the Windows Defender Security Center app by clicking the shield icon in the task bar or searching the start menu for **Defender**.
 
 2. Click the **Virus & threat protection** tile (or the shield icon on the left menu bar).
 
-3. Click **Protection updates**.
+3. Click **Protection updates**. The currently installed version is displayed along with some information about when it was downloaded. You can check this against the latest version available for manual download, or review the change log for that version.
+
+![Definition version number information](images/defender/wdav-wdsc-defs.png)
 
 4. Click **Check for updates** to download new protection updates (if there are any).
 
@@ -129,15 +135,16 @@ This section describes how to perform some of the most common tasks when reviewi
 5. Click the plus icon to choose the type and set the options for each exclusion. 
 
 <a id="detection-history"></a>
-**Review threat detection history in the Windows Defender Security Center app**
-1. Open the Windows Defender Security Center app by clicking the shield icon in the task bar or searching the start menu for **Defender**.
-
-2. Click the **Virus & threat protection** tile (or the shield icon on the left menu bar).
-
-3. Click **Scan history**.
-
-4. Click **See full history** under each of the categories (**Current threats**, **Quarantined threats**, **Allowed threats**).
-
+**Review threat detection history in the Windows Defender Security Center app**
+1. Open the Windows Defender Security Center app by clicking the shield icon in the task bar or searching the start menu for **Defender**.
+ 
+2. Click the **Virus & threat protection** tile (or the shield icon on the left menu bar).
+ 
+3. Click **Scan history**.
+ 
+4. Click **See full history** under each of the categories (**Current threats**, **Quarantined threats**, **Allowed threats**).
+ 
+ 
 
 
 

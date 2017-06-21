@@ -32,7 +32,11 @@
     "externalReference": [],
     "globalMetadata": {
 		"uhfHeaderId": "MSDocsHeader-WindowsIT", 
-		"breadcrumb_path": "/windows/windows-10/breadcrumb/toc.json"
+		"breadcrumb_path": "/windows/windows-10/breadcrumb/toc.json",
+		"ms.technology": "windows",
+		"ms.topic": "article",
+		"ms.author": "trudyha",
+		"ms.date": "04/05/2017"
 	},
     "fileMetadata": {},
     "template": [],
