@@ -6,7 +6,7 @@ ms.topic: article
 ms.prod: w10
 ms.technology: windows
 author: nickbrower
-ms.date: 08/30/2017
+ms.date: 09/29/2017
 ---
 
 # Policy CSP - Defender
@@ -14,11 +14,120 @@ ms.date: 08/30/2017
 > [!WARNING]
 > Some information relates to prereleased product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-<!--StartPolicies-->
 <hr/>
 
+<!--StartPolicies-->
 ## Defender policies  
 
+<dl>
+  <dd>
+    <a href="#defender-allowarchivescanning">Defender/AllowArchiveScanning</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowbehaviormonitoring">Defender/AllowBehaviorMonitoring</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowcloudprotection">Defender/AllowCloudProtection</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowemailscanning">Defender/AllowEmailScanning</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowfullscanonmappednetworkdrives">Defender/AllowFullScanOnMappedNetworkDrives</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowfullscanremovabledrivescanning">Defender/AllowFullScanRemovableDriveScanning</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowioavprotection">Defender/AllowIOAVProtection</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowintrusionpreventionsystem">Defender/AllowIntrusionPreventionSystem</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowonaccessprotection">Defender/AllowOnAccessProtection</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowrealtimemonitoring">Defender/AllowRealtimeMonitoring</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowscanningnetworkfiles">Defender/AllowScanningNetworkFiles</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowscriptscanning">Defender/AllowScriptScanning</a>
+  </dd>
+  <dd>
+    <a href="#defender-allowuseruiaccess">Defender/AllowUserUIAccess</a>
+  </dd>
+  <dd>
+    <a href="#defender-attacksurfacereductiononlyexclusions">Defender/AttackSurfaceReductionOnlyExclusions</a>
+  </dd>
+  <dd>
+    <a href="#defender-attacksurfacereductionrules">Defender/AttackSurfaceReductionRules</a>
+  </dd>
+  <dd>
+    <a href="#defender-avgcpuloadfactor">Defender/AvgCPULoadFactor</a>
+  </dd>
+  <dd>
+    <a href="#defender-cloudblocklevel">Defender/CloudBlockLevel</a>
+  </dd>
+  <dd>
+    <a href="#defender-cloudextendedtimeout">Defender/CloudExtendedTimeout</a>
+  </dd>
+  <dd>
+    <a href="#defender-controlledfolderaccessallowedapplications">Defender/ControlledFolderAccessAllowedApplications</a>
+  </dd>
+  <dd>
+    <a href="#defender-controlledfolderaccessprotectedfolders">Defender/ControlledFolderAccessProtectedFolders</a>
+  </dd>
+  <dd>
+    <a href="#defender-daystoretaincleanedmalware">Defender/DaysToRetainCleanedMalware</a>
+  </dd>
+  <dd>
+    <a href="#defender-enablecontrolledfolderaccess">Defender/EnableControlledFolderAccess</a>
+  </dd>
+  <dd>
+    <a href="#defender-enablenetworkprotection">Defender/EnableNetworkProtection</a>
+  </dd>
+  <dd>
+    <a href="#defender-excludedextensions">Defender/ExcludedExtensions</a>
+  </dd>
+  <dd>
+    <a href="#defender-excludedpaths">Defender/ExcludedPaths</a>
+  </dd>
+  <dd>
+    <a href="#defender-excludedprocesses">Defender/ExcludedProcesses</a>
+  </dd>
+  <dd>
+    <a href="#defender-puaprotection">Defender/PUAProtection</a>
+  </dd>
+  <dd>
+    <a href="#defender-realtimescandirection">Defender/RealTimeScanDirection</a>
+  </dd>
+  <dd>
+    <a href="#defender-scanparameter">Defender/ScanParameter</a>
+  </dd>
+  <dd>
+    <a href="#defender-schedulequickscantime">Defender/ScheduleQuickScanTime</a>
+  </dd>
+  <dd>
+    <a href="#defender-schedulescanday">Defender/ScheduleScanDay</a>
+  </dd>
+  <dd>
+    <a href="#defender-schedulescantime">Defender/ScheduleScanTime</a>
+  </dd>
+  <dd>
+    <a href="#defender-signatureupdateinterval">Defender/SignatureUpdateInterval</a>
+  </dd>
+  <dd>
+    <a href="#defender-submitsamplesconsent">Defender/SubmitSamplesConsent</a>
+  </dd>
+  <dd>
+    <a href="#defender-threatseveritydefaultaction">Defender/ThreatSeverityDefaultAction</a>
+  </dd>
+</dl>
+
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowarchivescanning"></a>**Defender/AllowArchiveScanning**  
 
@@ -45,6 +154,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -59,6 +177,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowbehaviormonitoring"></a>**Defender/AllowBehaviorMonitoring**  
 
@@ -85,6 +204,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -99,6 +227,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowcloudprotection"></a>**Defender/AllowCloudProtection**  
 
@@ -125,6 +254,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -139,6 +277,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowemailscanning"></a>**Defender/AllowEmailScanning**  
 
@@ -165,6 +304,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -179,6 +327,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowfullscanonmappednetworkdrives"></a>**Defender/AllowFullScanOnMappedNetworkDrives**  
 
@@ -205,6 +354,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -219,6 +377,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowfullscanremovabledrivescanning"></a>**Defender/AllowFullScanRemovableDriveScanning**  
 
@@ -245,6 +404,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -259,6 +427,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowioavprotection"></a>**Defender/AllowIOAVProtection**  
 
@@ -285,6 +454,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -299,6 +477,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowintrusionpreventionsystem"></a>**Defender/AllowIntrusionPreventionSystem**  
 
@@ -325,6 +504,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -339,6 +527,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowonaccessprotection"></a>**Defender/AllowOnAccessProtection**  
 
@@ -365,6 +554,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -379,6 +577,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowrealtimemonitoring"></a>**Defender/AllowRealtimeMonitoring**  
 
@@ -405,6 +604,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -419,6 +627,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowscanningnetworkfiles"></a>**Defender/AllowScanningNetworkFiles**  
 
@@ -445,6 +654,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -459,6 +677,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowscriptscanning"></a>**Defender/AllowScriptScanning**  
 
@@ -485,6 +704,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -499,6 +727,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-allowuseruiaccess"></a>**Defender/AllowUserUIAccess**  
 
@@ -525,6 +754,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -539,6 +777,7 @@ ms.date: 08/30/2017
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-attacksurfacereductiononlyexclusions"></a>**Defender/AttackSurfaceReductionOnlyExclusions**  
 
@@ -565,6 +804,15 @@ ms.date: 08/30/2017
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -572,10 +820,11 @@ ms.date: 08/30/2017
 
 <p style="margin-left: 20px">Added in Windows 10, version 1709. This policy setting allows you to prevent Attack Surface reduction rules from matching on files under the paths specified or for the fully qualified resources specified. Paths should be added under the Options for this setting. Each entry must be listed as a name value pair, where the name should be a string representation of a path or a fully qualified resource name. As an example, a path might be defined as: "c:\Windows" to exclude all files in this directory. A fully qualified resource name might be defined as: "C:\Windows\App.exe"..
 
-Value type is string.
+<p style="margin-left: 20px">Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-attacksurfacereductionrules"></a>**Defender/AttackSurfaceReductionRules**  
 
@@ -602,6 +851,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -609,10 +867,13 @@ Value type is string.
 
 <p style="margin-left: 20px">Added in Windows 10, version 1709. This policy setting enables setting the state (Block/Audit/Off) for each Attack surface reduction (ASR) rule. Each ASR rule listed can be set to one of the following states (Block/Audit/Off). The ASR rule ID and state should be added under the Options for this setting. Each entry must be listed as a name value pair. The name defines a valid ASR rule ID, while the value contains the status ID indicating the status of the rule.
 
-Value type is string.
+<p style="margin-left: 20px">For more information about ASR rule ID and status ID, see [Enable Attack Surface Reduction](https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction).
+
+<p style="margin-left: 20px">Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-avgcpuloadfactor"></a>**Defender/AvgCPULoadFactor**  
 
@@ -639,6 +900,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -652,6 +922,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-cloudblocklevel"></a>**Defender/CloudBlockLevel**  
 
@@ -678,6 +949,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -701,6 +981,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-cloudextendedtimeout"></a>**Defender/CloudExtendedTimeout**  
 
@@ -727,6 +1008,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -742,6 +1032,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-controlledfolderaccessallowedapplications"></a>**Defender/ControlledFolderAccessAllowedApplications**  
 
@@ -768,6 +1059,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop. The previous name was GuardedFoldersAllowedApplications and changed to ControlledFolderAccessAllowedApplications.
@@ -776,6 +1076,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-controlledfolderaccessprotectedfolders"></a>**Defender/ControlledFolderAccessProtectedFolders**  
 
@@ -802,6 +1103,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop. The previous name was GuardedFoldersList and changed to ControlledFolderAccessProtectedFolders.
@@ -810,6 +1120,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-daystoretaincleanedmalware"></a>**Defender/DaysToRetainCleanedMalware**  
 
@@ -836,6 +1147,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -849,6 +1169,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-enablecontrolledfolderaccess"></a>**Defender/EnableControlledFolderAccess**  
 
@@ -875,6 +1196,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop. The previous name was EnableGuardMyFolders  and changed to EnableControlledFolderAccess.
@@ -887,6 +1217,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-enablenetworkprotection"></a>**Defender/EnableNetworkProtection**  
 
@@ -913,6 +1244,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -933,6 +1273,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-excludedextensions"></a>**Defender/ExcludedExtensions**  
 
@@ -959,6 +1300,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -968,6 +1318,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-excludedpaths"></a>**Defender/ExcludedPaths**  
 
@@ -994,6 +1345,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1003,6 +1363,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-excludedprocesses"></a>**Defender/ExcludedProcesses**  
 
@@ -1029,6 +1390,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1044,6 +1414,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-puaprotection"></a>**Defender/PUAProtection**  
 
@@ -1070,6 +1441,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1085,6 +1465,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-realtimescandirection"></a>**Defender/RealTimeScanDirection**  
 
@@ -1111,6 +1492,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1130,6 +1520,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-scanparameter"></a>**Defender/ScanParameter**  
 
@@ -1156,6 +1547,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1170,6 +1570,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-schedulequickscantime"></a>**Defender/ScheduleQuickScanTime**  
 
@@ -1196,6 +1597,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1215,6 +1625,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-schedulescanday"></a>**Defender/ScheduleScanDay**  
 
@@ -1241,6 +1652,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1266,6 +1686,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-schedulescantime"></a>**Defender/ScheduleScanTime**  
 
@@ -1292,6 +1713,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1311,6 +1741,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-signatureupdateinterval"></a>**Defender/SignatureUpdateInterval**  
 
@@ -1337,6 +1768,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1352,6 +1792,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-submitsamplesconsent"></a>**Defender/SubmitSamplesConsent**  
 
@@ -1378,6 +1819,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
@@ -1394,6 +1844,7 @@ Value type is string.
 
 <!--EndDescription-->
 <!--EndPolicy-->
+<hr/>
 <!--StartPolicy-->
 <a href="" id="defender-threatseveritydefaultaction"></a>**Defender/ThreatSeverityDefaultAction**  
 
@@ -1420,6 +1871,15 @@ Value type is string.
 </table>
 
 <!--EndSKU-->
+<!--StartScope-->
+[Scope](./policy-configuration-service-provider.md#policy-scope):
+
+> [!div class = "checklist"]
+> * Device
+
+<hr/>
+
+<!--EndScope-->
 <!--StartDescription-->
 > [!NOTE]
 > This policy is only enforced in Windows 10 for desktop.
